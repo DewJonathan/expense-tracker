@@ -37,8 +37,10 @@ A full-featured Expense Tracker built with Flask that helps users manage daily e
 
 2. **Create and activate a virtual environment**
 
+   ```bash
    source venv/bin/activate # On Windows: venv\Scripts\activate
 
+   ```
 3. **install dependencies**
 
    ```bash
@@ -53,10 +55,17 @@ A full-featured Expense Tracker built with Flask that helps users manage daily e
    FLASK_ENV=development
 
 5. **Initialize the database**
+
+   ```bash
    python db.py
 
+   ```
 6. **Run the app**
+
+   ```bash
    flask run
+
+   ```
 
    Open your browser and go to → http://127.0.0.1:5000
 
