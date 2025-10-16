@@ -1,0 +1,22 @@
+
+# Byte-complited / Cache files
+__pycache__/
+*.pyc[cod]
+*.pyo
+
+# Vitural Evniroment 
+venv/
+.env
+
+
+# Pytest cache 
+.pytest_cache/
+venv/.pytest_cache/
+
+#macOD metadata
+.DC_Store
+
+#IDE / Editor settings 
+.vscode/
+.idea/
+
